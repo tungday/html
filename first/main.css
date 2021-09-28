@@ -1,0 +1,53 @@
+/* body{
+    background-color:#3affa1;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+} */
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+.anh{
+    border-radius: 200px;
+}
+h1{
+    font-family: 'Pacifico';
+}
+h2{
+    font-family: 'Pacifico';
+}
+h3{
+    font-family: 'Pacifico';
+}
+.a{
+    border: 2px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 250px;
+    border-radius: 100px;
+    padding: 20px 0px 20px 0px;
+    font-family: arial;
+}
+.a:hover{
+    color: white;
+    background-color: black;
+}
